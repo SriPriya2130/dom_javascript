@@ -1,0 +1,20 @@
+<style>
+    div{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        transition: 2s;
+    } 
+    .widthmax{
+        width: 900px;
+    }
+</style>
+
+<div id="box" ></div>
+<button onclick="Change()">Change Colour</button>
+<script>
+    var box=document.getElementById("box")
+    function Change(){
+        box.setAttribute("class", "widthmax")
+    }
+</script>

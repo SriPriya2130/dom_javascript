@@ -1,0 +1,11 @@
+<h1 id="putname">Name</h1>
+<button onclick="Change(event)">John</button>
+<button onclick="Change(event)">Hari</button>
+<button onclick="Change(event)">Karthick</button>
+
+<script>
+    var putname=document.getElementById("putname")
+        function Change(event){
+           putname.textContent= event.target.textContent
+        }
+</script>

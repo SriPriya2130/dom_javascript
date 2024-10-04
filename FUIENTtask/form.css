@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(244, 239, 242);
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: navy;
+    font-size: xx-large;
+    font-family:sans-serif;
+}
+.option{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.option-opt{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    margin-left: 50px;
+}
+.option-select{
+    margin-left: 1000px;
+    margin-bottom: 80px;
+}
+.form-filling{
+    background-color: violet;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(165, 213, 44);
+    margin-left: 600PX;
+}
+.fill{
+    color: blue;
+    font-weight: bold;
+}
+.input-group{
+    height: 40px;
+    border-bottom: 10px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: crimson;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}

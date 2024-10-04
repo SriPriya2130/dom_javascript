@@ -1,0 +1,36 @@
+body{
+   background-color: aliceblue;
+}
+fieldset{
+    background-color: chocolate;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 550px;
+
+}
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+.view-password{
+    position: relative;
+    top: 50%;
+    transform: translate Y(-50%);
+    cursor: pointer;
+}
+.view-password::before{
+    content:"\1F441";
+    font-size: 20px;
+}
+button{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(92, 92, 186);
+    border-radius: 30px;
+}
+h1{
+   text-transform:uppercase;
+}
